@@ -1,0 +1,5 @@
+
+version: 2
+
+models:
+  - name: top_product_sales

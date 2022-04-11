@@ -1,3 +1,6 @@
+/*
+    Union all sales into one big table as they don't really serve any value being separated
+*/
 {{ config(
     materialized='table',
     schema="staging"

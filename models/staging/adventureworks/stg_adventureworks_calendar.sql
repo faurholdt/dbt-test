@@ -4,5 +4,5 @@
 ) }}
 
 
-select distinct Date as date
+select Date
 from {{ source('ingest', 'adventureworks_calendar') }}
