@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: stg_adventureworks_calendar
+    columns:
+      - name: date
+        tests:
+          - unique
+          - not_null
+  - name: stg_adventureworks_customers
+  - name: stg_adventureworks_product_categories
+  - name: stg_adventureworks_product_subcategories
+  - name: stg_adventureworks_products
+  - name: stg_adventureworks_returns
+  - name: stg_adventureworks_sales_2015
+  - name: stg_adventureworks_sales_2016
+  - name: stg_adventureworks_sales_2017
+  - name: stg_adventureworks_territories

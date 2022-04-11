@@ -1,0 +1,19 @@
+version: 2
+
+sources:
+  - name: ingest
+    description: A replica of adventureworks database.
+    tables:
+      - name: adventureworks_calendar
+        columns:
+          - name: date
+            description: Primary key of the table. Date in format YYYY-MM-DD
+      - name: adventureworks_customers
+      - name: adventureworks_product_categories
+      - name: adventureworks_product_subcategories
+      - name: adventureworks_products
+      - name: adventureworks_returns
+      - name: adventureworks_sales_2015
+      - name: adventureworks_sales_2016
+      - name: adventureworks_sales_2017
+      - name: adventureworks_territories
